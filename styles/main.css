@@ -1,0 +1,108 @@
+body { 
+    padding-top: 80px; 
+    height: 100%;
+	background-color: #2d2b2b;
+}
+
+td {
+    border: 1px solid #79d9ce;
+    width: 20px;
+    height: 20px;
+}
+
+.key {
+	border: 1px solid #79d9ce;
+	width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+ul {
+	list-style-type: none;
+}
+
+.btn-space {
+	margin-right: 5px;
+}
+
+#update {
+	margin-bottom: 15px; 
+	margin-top: 10px;
+}
+
+.wall {
+	transition : background-color 0.1s ease-in-out;
+	background-color: rgb(56, 12, 12);
+	border-color: black;
+}
+
+.none {
+	transition : background-color 0.1s ease-in-out;
+	background-color: white;
+	border-color: #79d9ce;
+}
+
+.searching {
+	transition : background-color 0.08s ease-in-out;
+	background-color: #1f1cd4;
+	border-color: black;
+}
+
+.visited {
+	transition : background-color 0.08s ease-in-out;
+	background-color: #d7e840;
+	border-color:black ;
+}
+
+.success {
+	transition : background-color 0.08s ease-in-out;
+	background-color: rgb(23, 230, 23);
+	border-color: black;
+}
+
+.start {
+	background-color: rgb(252, 11, 11);
+	border-color: rgb(228, 18, 18);
+}
+
+.end {
+	background-color: gainsboro;
+	border-color: gainsboro;
+}
+
+#bigTableContainer {
+	margin-top: 30px;
+}
+
+.custom-section {
+	margin-bottom: 20px;
+}
+
+#modalTitleContainer {
+	padding-top: 10px;
+}
+
+#results {
+	height: 87px;
+	width: 120px;
+	background-color: #ffc107;
+	position: fixed;
+	right: 10px;
+	bottom: 10px;
+	color: white;
+	font-size: 12px;
+	text-align: center;
+	border: 1px dashed black;
+}
+
+#resultsIcon {
+	margin-bottom: 3px;
+	margin-top: 7px;
+	font-size: 16px;
+}
+
+#duration, #length {
+	padding: 3px;
+}
+
+
